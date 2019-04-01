@@ -2,6 +2,12 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
+    title: 'Service',
+    icon: 'nb-layout-sidebar-left',
+    link: '/pages/service',
+    home: true,
+  },
+  {
     title: 'E-commerce',
     icon: 'nb-e-commerce',
     link: '/pages/dashboard',
